@@ -1,0 +1,371 @@
+body {
+  background-color: blanchedalmond;
+}
+#reverso1 {
+  width: 25rem;
+  height: 26rem;
+  display: block;
+  border: 8px solid saddlebrown;
+}
+#reverso2 {
+  width: 25rem;
+  height: 26rem;
+  display: block;
+  justify-content: center;
+  border: 8px solid saddlebrown;
+}
+#reverso3 {
+  width: 25rem;
+  height: 26rem;
+  display: block;
+  justify-content: center;
+  border: 8px solid saddlebrown;
+}
+#anverso1 {
+  display: none;
+  width: 25rem;
+  height: 26rem;
+  border: 8px solid saddlebrown;
+}
+#anverso2 {
+  display: none;
+  width: 25rem;
+  height: 26rem;
+  border: 8px solid saddlebrown;
+}
+#anverso3 {
+  display: none;
+  width: 25rem;
+  height: 26rem;
+  border: 8px solid saddlebrown;
+}
+#botonVolver1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  display: flex;
+  font-size: 2rem;
+  padding: 20px 60px 20px 60px;
+  margin: 80px 80px 80px 100px;
+  border: 5px solid saddlebrown;
+  background-color: aquamarine;
+  border-radius: 15%;
+}
+#classun {
+  display: flex;
+  justify-content: center;
+}
+#un {
+  display: flex;
+  justify-content: center;
+}
+#classdous {
+  display: flex;
+  justify-content: center;
+}
+#dous {
+  display: flex;
+  justify-content: center;
+}
+#classtres {
+  display: flex;
+  justify-content: center;
+}
+#tres {
+  display: flex;
+  justify-content: center;
+}
+#botonVolver2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  display: flex;
+  font-size: 2rem;
+  padding: 20px;
+  margin: 80px;
+  border: 5px solid saddlebrown;
+  background-color: aquamarine;
+  border-radius: 15%;
+}
+#botonVolver3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  display: flex;
+  font-size: 2rem;
+  padding: 20px;
+  margin: 80px;
+  border: 5px solid saddlebrown;
+  background-color: aquamarine;
+  border-radius: 15%;
+}
+#foto1 {
+  display: flex;
+  justify-content: center;
+}
+#foto2 {
+  display: flex;
+  justify-content: center;
+}
+#foto3 {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 6rem;
+  color: blue;
+  text-shadow: 50%;
+  display: flex;
+  justify-content: center;
+}
+#main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 100px 10px;
+}
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+#tarxeta1 {
+  padding: 50px;
+}
+#tarxeta2 {
+  padding: 50px;
+}
+#tarxeta3 {
+  padding: 50px;
+}
+#botonTarxeta1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 20px;
+  margin: 50px 50px 50px 90px;
+  border: 5px solid saddlebrown;
+  background-color: aquamarine;
+  border-radius: 15%;
+}
+#botonTarxeta2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 20px;
+  margin: 50px 50px 50px 90px;
+  border: 5px solid saddlebrown;
+  background-color: aquamarine;
+  border-radius: 15%;
+}
+#botonTarxeta3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 20px;
+  margin: 50px 50px 50px 90px;
+  border: 5px solid saddlebrown;
+  background-color: aquamarine;
+  border-radius: 15%;
+}
+footer {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: blanchedalmond;
+    width: 600vh;
+    height: 600vh;
+  }
+  #classun {
+    display: flex;
+    justify-content: left;
+  }
+  #un {
+    display: flex;
+    justify-content: left;
+  }
+  #classdous {
+    display: flex;
+    justify-content: left;
+  }
+  #dous {
+    display: flex;
+    justify-content: left;
+  }
+  #classtres {
+    display: flex;
+    justify-content: left;
+  }
+  #tres {
+    display: flex;
+    justify-content: left;
+  }
+  #reverso1 {
+    width: 15rem;
+    height: 16rem;
+    display: block;
+    justify-content: left;
+    border: 5px solid saddlebrown;
+  }
+  #reverso2 {
+    width: 15rem;
+    height: 16rem;
+    display: block;
+    justify-content: left;
+    border: 5px solid saddlebrown;
+  }
+  #reverso3 {
+    width: 15rem;
+    height: 16rem;
+    display: block;
+    justify-content: left;
+    border: 5px solid saddlebrown;
+  }
+  #anverso1 {
+    display: none;
+    width: 15rem;
+    height: 16rem;
+    border: 5px solid saddlebrown;
+    justify-content: left;
+  }
+  #anverso2 {
+    display: none;
+    width: 15rem;
+    height: 16rem;
+    border: 5px solid saddlebrown;
+    justify-content: left;
+  }
+  #anverso3 {
+    display: none;
+    width: 15rem;
+    height: 16rem;
+    border: 5px solid saddlebrown;
+    justify-content: left;
+  }
+  #botonVolver1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: left;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 40px;
+    border: 5px solid saddlebrown;
+    background-color: aquamarine;
+    border-radius: 15%;
+  }
+  #botonVolver2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: left;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 40px;
+    border: 5px solid saddlebrown;
+    background-color: aquamarine;
+    border-radius: 15%;
+  }
+  #botonVolver3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: left;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 40px;
+    border: 5px solid saddlebrown;
+    background-color: aquamarine;
+    border-radius: 15%;
+  }
+  h1 {
+    font-family: fantasy;
+    font-size: 3rem;
+    color: blue;
+    text-shadow: 50%;
+    display: flex;
+    justify-content: left;
+  }
+  #main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px 10px;
+  }
+  #foto1 {
+    justify-content: left;
+  }
+  #foto2 {
+    justify-content: left;
+  }
+  #foto3 {
+    justify-content: left;
+  }
+  h3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: left;
+    font-size: 2rem;
+  }
+  #tarxeta1 {
+    padding: 10px;
+  }
+  #tarxeta2 {
+    padding: 10px;
+  }
+  #tarxeta3 {
+    padding: 10px;
+  }
+  #botonTarxeta1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 40px;
+    border: 5px solid saddlebrown;
+    background-color: aquamarine;
+    border-radius: 15%;
+    justify-content: left;
+  }
+  #botonTarxeta2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 40px;
+    border: 5px solid saddlebrown;
+    background-color: aquamarine;
+    border-radius: 15%;
+    /* justify-content:left ; */
+  }
+  #botonTarxeta3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 40px;
+    border: 5px solid saddlebrown;
+    background-color: aquamarine;
+    border-radius: 15%;
+    /* justify-content:left ; */
+  }
+  footer {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: left;
+  }
+}
