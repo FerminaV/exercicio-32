@@ -1,2 +1,2 @@
 # exercicio-35
-Pagina divertida creada con naipes
+Pagina (en gallego) divertida creada con naipes
